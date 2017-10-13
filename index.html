@@ -1,38 +1,34 @@
 <!DOCTYPE html>
 <html>
-<head>
-    <title>Polling Places</title>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <script src="https://use.fontawesome.com/265846f40a.js"></script>
- <script
-  src="https://code.jquery.com/jquery-3.2.1.min.js"
-  integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
-  crossorigin="anonymous"></script>
-      <script type="text/javascript" src="app.js"></script>
-     <link rel="stylesheet" type="text/css" href="main.css">
-</head>
-<body>
-<div class = "top">
-    <img src = "logo.jpg" class = "logo">
-    <div class = "tittle"><h1>Search for Your Polling Place</h1>
-    <h2>Just enter your full address</h2></div>
-    </div>
-<div>
-<button class ="js-elections">See/hide supported elections</button>
-<p></p>
-</div>
-<div class="elections hidden">Elections
-<p></p></div>
-          <form action="#" class="js-search-form">
+    <head>
+        <title>Polling Places</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <script src="https://use.fontawesome.com/265846f40a.js"></script>
+        <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+        <script type="text/javascript" src="app.js"></script>
+        <link rel="stylesheet" type="text/css" href="main.css">
+    </head>
+    <body>
+        <div class = "top">
+            <img src = "logo.jpg" class = "logo">
+            <div class = "tittle">
+                <h1>Search for Your Polling Place</h1>
+                <h2>Just enter your full address</h2></div>
+            </div>
+        <div>
+            <button class ="js-elections">See/hide supported elections</button>
+            <p></p>
+        </div>
+        <div class="elections hidden">Elections
+            <p></p>
+        </div>
+        <form action="#" class="js-search-form">
             <label for="query">Enter FULL address</label>
             <input type="text" class="js-query" placeholder = "&#xf002 123 Place St. New Orleans, LA 12345">
             <button type="submit">Search</button>
-          </form>
-          
-        
-          <div class="js-search-results">
-            
-          </div>
-</body>
+        </form>
+        <div class="js-search-results">
+        </div>
+    </body>
 </html>
