@@ -25,24 +25,23 @@ button{
     font-size: 20px;
 }
 @media only screen and (min-width: 640px) {
-.top {
-    background-color: darkblue;
-    color: white;
-    display: flex;
-
-}
-
-.logo {
-    display: inline-block;
-    width: 20%;
-    border-radius: 30px;
- vertical-align: middle;
-}
-
-.tittle {
-    display: inline-block;
-    width:70%;
-}
+    .top {
+        background-color: darkblue;
+        color: white;
+        display: flex;
+    }
+    .logo {
+        display: inline-block;
+        width: 20%;
+        border-radius: 30px;
+        vertical-align: middle;
+        margin-bottom:auto;
+        margin-top:auto;
+    }
+    .tittle {
+        display: inline-block;
+        width:70%;
+    }
 }
 .top {
     background-color: darkblue;
