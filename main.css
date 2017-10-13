@@ -1,6 +1,5 @@
 .hidden{
     display: none;
-    background-color: blue;
 }
 * {
   box-sizing: border-box;
@@ -37,8 +36,6 @@ button{
     display: inline-block;
     width: 20%;
     border-radius: 30px;
-        margin-top: auto;
-    margin-bottom: auto;
  vertical-align: middle;
 }
 
