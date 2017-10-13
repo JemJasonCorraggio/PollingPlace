@@ -2,3 +2,56 @@
     display: none;
     background-color: blue;
 }
+* {
+  box-sizing: border-box;
+  width: 95%;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 1%;
+}
+input{
+    font-family: FontAwesome;
+    border-radius: 30px;
+    border: solid black 1px;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+ label {
+  display: block;
+}
+button{
+    border-radius: 30px;
+    border: solid black 1px;
+    background-color: lightblue;
+    font-size: 20px;
+}
+@media only screen and (min-width: 640px) {
+.top {
+    background-color: darkblue;
+    color: white;
+    display: flex;
+
+}
+
+.logo {
+    display: inline-block;
+    width: 20%;
+    border-radius: 30px;
+        margin-top: auto;
+    margin-bottom: auto;
+ vertical-align: middle;
+}
+
+.tittle {
+    display: inline-block;
+    width:70%;
+}
+}
+.top {
+    background-color: darkblue;
+    color: white;
+}
+.logo {
+    border-radius: 30px;
+
+}

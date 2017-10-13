@@ -25,7 +25,7 @@ function getDataFromApi(searchTerm, callback) {
   };
   try {$.parseJSON($.getJSON(SEARCH_URL, query, callback));}
   catch(e){
-      $(".js-search-results").html("<p>There is no data for this address. There may not be a supported election in your area. Please check the list of supported elections and try again.</p>");
+      $(".js-search-results").html("<p>There is no data for this address. The address may have been entered incorrectly or there may not be a supported election in your area. Please check that the address is in the correct format (ex. 123 Place St. New Orleans, LA 12345) and the list of supported elections and try again.</p>");
   }
   $.getJSON(SEARCH_URL, query, callback);
 }
@@ -35,7 +35,7 @@ function getElectionData(callback) {
   };
  // try {$.parseJSON($.getJSON(ELECTIONS_URL, query, callback));}
   //catch(e){
-    //  $(".js-search-results").html("<p>There is no data for this address. There may not be a supported election in your area. Please check the list of supported elections and try again.</p>");
+    //  $(".js-search-results").html("<p>There is no data for this address. The address may have been entered incorrectly or there may not be a supported election in your area. Please check that the address is in the correct format (ex. 123 Place St. New Orleans, LA 12345) and the list of supported elections and try again.</p>");
   //}
   $.getJSON(ELECTIONS_URL, query, callback);
 }
